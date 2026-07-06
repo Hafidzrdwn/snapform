@@ -41,9 +41,9 @@ export default function Home() {
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-bold text-slate-500 dark:text-slate-400">
-          <a href="#fitur" className="hover:text-indigo-605 dark:hover:text-slate-200 transition-colors duration-200">Fitur</a>
-          <a href="#keunggulan" className="hover:text-indigo-605 dark:hover:text-slate-200 transition-colors duration-200">Keunggulan</a>
-          <a href="#keamanan" className="hover:text-indigo-605 dark:hover:text-slate-200 transition-colors duration-200">Keamanan</a>
+          <a href="#fitur" className="hover:text-indigo-600 dark:hover:text-slate-200 transition-colors duration-200">Fitur</a>
+          <a href="#keunggulan" className="hover:text-indigo-600 dark:hover:text-slate-200 transition-colors duration-200">Keunggulan</a>
+          <a href="#keamanan" className="hover:text-indigo-600 dark:hover:text-slate-200 transition-colors duration-200">Keamanan</a>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -58,7 +58,7 @@ export default function Home() {
 
           <Link 
             href="/editor" 
-            className="flex items-center gap-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-200 font-bold text-xs md:text-sm px-4 py-2 rounded-xl transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer shadow-sm"
+            className="flex items-center gap-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs md:text-sm px-4 py-2 rounded-xl transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer shadow-sm"
           >
             <span>Masuk Editor</span>
             <ArrowRight size={12} />
@@ -71,13 +71,13 @@ export default function Home() {
         <div className="max-w-3xl space-y-6">
           
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-200/50 dark:bg-slate-800/80 border border-slate-300/40 dark:border-slate-700 text-slate-650 dark:text-slate-400 text-xs font-bold transition-all duration-200">
-            <Sparkles size={12} className="text-indigo-650 dark:text-indigo-400 animate-pulse" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-200/50 dark:bg-slate-800/80 border border-slate-300/40 dark:border-slate-700 text-slate-600 dark:text-slate-400 text-xs font-bold transition-all duration-200">
+            <Sparkles size={12} className="text-indigo-600 dark:text-indigo-400 animate-pulse" />
             <span>Preset-First Photo Restyling</span>
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight md:leading-none bg-gradient-to-b from-slate-900 via-slate-800 to-slate-650 dark:from-zinc-50 dark:via-zinc-200 dark:to-zinc-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight md:leading-none bg-gradient-to-b from-slate-900 via-slate-800 to-slate-700 dark:from-zinc-50 dark:via-zinc-200 dark:to-zinc-400 bg-clip-text text-transparent">
             Ubah Foto Kasual Anda <br className="hidden md:block" /> Menjadi Formal & Profesional
           </h1>
 
@@ -120,7 +120,7 @@ export default function Home() {
             {/* Mock Editor Content */}
             <div className="flex-1 flex bg-slate-50/20 dark:bg-slate-950/20">
               <div className="w-1/4 border-r border-slate-200 dark:border-zinc-900 p-3 space-y-2 hidden md:block">
-                <div className="w-full h-8 rounded bg-slate-100 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-900 flex items-center px-2 gap-2 text-xs text-slate-650 dark:text-slate-400 font-semibold shadow-sm">
+                <div className="w-full h-8 rounded bg-slate-100 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-900 flex items-center px-2 gap-2 text-xs text-slate-600 dark:text-slate-400 font-semibold shadow-sm">
                   <Shirt size={10} />
                   <span>Jas Formal Navy</span>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 md:px-8">
           
           <div className="text-center space-y-2 mb-16">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-850 dark:text-slate-200">Eksplorasi Kemudahan Snapform</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-slate-200">Eksplorasi Kemudahan Snapform</h2>
             <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 max-w-md mx-auto">Kami merancang editor foto berbasis preset visual untuk mempercepat kebutuhan foto formal Anda.</p>
           </div>
 
@@ -158,7 +158,7 @@ export default function Home() {
             
             {/* Feature card 1 */}
             <div className="bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-900 hover:border-slate-300 dark:hover:border-slate-800 rounded-2xl p-6 space-y-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md group">
-              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-650 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
+              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-600 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
                 <Shirt size={18} />
               </div>
               <div className="space-y-1.5">
@@ -169,7 +169,7 @@ export default function Home() {
 
             {/* Feature card 2 */}
             <div className="bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-900 hover:border-slate-300 dark:hover:border-slate-800 rounded-2xl p-6 space-y-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md group">
-              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-650 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
+              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-600 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
                 <ImageIcon size={18} />
               </div>
               <div className="space-y-1.5">
@@ -180,7 +180,7 @@ export default function Home() {
 
             {/* Feature card 3 */}
             <div className="bg-white dark:bg-slate-900/30 border border-slate-200 dark:border-slate-900 hover:border-slate-300 dark:hover:border-slate-800 rounded-2xl p-6 space-y-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md group">
-              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-650 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
+              <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700 flex items-center justify-center text-indigo-600 dark:text-indigo-400 group-hover:scale-105 transition-transform duration-300">
                 <SlidersHorizontal size={18} />
               </div>
               <div className="space-y-1.5">
@@ -198,38 +198,38 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-2">
-              <h2 className="text-2xl md:text-3xl font-extrabold text-slate-850 dark:text-slate-200">Keamanan & Keandalan Terjamin</h2>
-              <p className="text-xs md:text-sm text-slate-500 dark:text-slate-450">Privasi foto wajah dan kualitas hasil akhir merupakan prioritas utama dalam produk Snapform.</p>
+              <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-slate-200">Keamanan & Keandalan Terjamin</h2>
+              <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400">Privasi foto wajah dan kualitas hasil akhir merupakan prioritas utama dalam produk Snapform.</p>
             </div>
             
             <div className="space-y-5">
               <div className="flex gap-3">
-                <div className="text-indigo-650 dark:text-indigo-400 mt-0.5">
+                <div className="text-indigo-600 dark:text-indigo-400 mt-0.5">
                   <ShieldCheck size={18} />
                 </div>
                 <div className="space-y-1">
                   <h4 className="text-xs md:text-sm font-bold text-slate-800 dark:text-slate-200">Perlindungan Identitas</h4>
-                  <p className="text-xs text-slate-500 dark:text-slate-450">AI kami hanya memodifikasi pakaian dan latar belakang subjek tanpa melakukan face-swap atau mengubah kontur wajah asli Anda.</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">AI kami hanya memodifikasi pakaian dan latar belakang subjek tanpa melakukan face-swap atau mengubah kontur wajah asli Anda.</p>
                 </div>
               </div>
 
               <div className="flex gap-3">
-                <div className="text-indigo-650 dark:text-indigo-400 mt-0.5">
+                <div className="text-indigo-600 dark:text-indigo-400 mt-0.5">
                   <Zap size={18} />
                 </div>
                 <div className="space-y-1">
                   <h4 className="text-xs md:text-sm font-bold text-slate-800 dark:text-slate-200">Keamanan Sisi Server</h4>
-                  <p className="text-xs text-slate-500 dark:text-slate-450">Seluruh pemrosesan AI dilindungi di server tanpa mengekspos API Key ke peramban client, mencegah manipulasi data.</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">Seluruh pemrosesan AI dilindungi di server tanpa mengekspos API Key ke peramban client, mencegah manipulasi data.</p>
                 </div>
               </div>
 
               <div className="flex gap-3">
-                <div className="text-indigo-650 dark:text-indigo-400 mt-0.5">
+                <div className="text-indigo-600 dark:text-indigo-400 mt-0.5">
                   <CheckCircle2 size={18} />
                 </div>
                 <div className="space-y-1">
                   <h4 className="text-xs md:text-sm font-bold text-slate-800 dark:text-slate-200">Pencegahan Konten NSFW</h4>
-                  <p className="text-xs text-slate-500 dark:text-slate-450">Pola moderasi otomatis menyaring gambar masukan dan keluaran demi menjamin foto bebas dari unsur sensitif dan kekerasan.</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">Pola moderasi otomatis menyaring gambar masukan dan keluaran demi menjamin foto bebas dari unsur sensitif dan kekerasan.</p>
                 </div>
               </div>
             </div>
@@ -263,8 +263,8 @@ export default function Home() {
       <footer className="h-16 px-4 md:px-8 border-t border-slate-200 dark:border-slate-800/60 bg-slate-50 dark:bg-slate-900 flex items-center justify-between text-xs text-slate-500 dark:text-slate-500 z-10 relative transition-colors duration-300">
         <span className="pl-12 md:pl-0">&copy; 2026 Snapform. Hak Cipta Dilindungi Undang-Undang.</span>
         <div className="flex gap-4">
-          <a href="#" className="hover:text-indigo-650 dark:hover:text-slate-300 transition-colors">Ketentuan Layanan</a>
-          <a href="#" className="hover:text-indigo-650 dark:hover:text-slate-300 transition-colors">Kebijakan Privasi</a>
+          <a href="#" className="hover:text-indigo-600 dark:hover:text-slate-300 transition-colors">Ketentuan Layanan</a>
+          <a href="#" className="hover:text-indigo-600 dark:hover:text-slate-300 transition-colors">Kebijakan Privasi</a>
         </div>
       </footer>
 
